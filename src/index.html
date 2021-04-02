@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chat</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="menu">
+          <div class="menu__left">
+            <p class="menu__user-name">Usename</p>
+            <p class="menu__user-status">Status</p>
+          </div>
+          <div class="menu__right">
+            <div class="menu__icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="menu__icon">
+              <i class="fas fa-search"></i>
+            </div>
+            <div class="menu__icon">
+              <i class="fas fa-window-maximize"></i>
+            </div>
+            <div class="menu__icon menu__icon_dropdown">
+              <i class="fas fa-ellipsis-v"></i>
+              <ul class="dropdown-menu">
+                <li>To call</li>
+                <li>Search</li>
+                <li>Add contact</li>
+                <li>Clear history</li>
+                <li>Clear chat</li>
+                <li>Block contact</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content">
+        <div class="user">
+          <div class="user__message user__message_question">
+            <div class="user__message-text">
+<!--              <p class="user__avatar">MU</p>-->
+              <p class="user__text-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, eligendi libero magni nisi quas ratione sapiente vitae? Animi blanditiis, consectetur culpa cum dolore fuga fugit perferendis possimus quae voluptatibus. Voluptatem.</p>
+            </div>
+            <p class="user__time-online">11:00</p>
+          </div>
+        </div>
+        <div class="user user_answer">
+          <div class="user__message user__message_answer">
+            <div class="user__message-text user__message-text_answer">
+<!--              <p class="user__avatar user__avatar_answer">VT</p>-->
+              <p class="user__text-message">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores blanditiis consequatur, dolorum est illum in ipsam iure laborum nihil nisi nobis non odio, praesentium repellendus sint, tenetur voluptate. Itaque, quis!</p>
+            </div>
+            <p class="user__time-online">11:20</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="menu menu_bottom">
+          <div class="menu__left menu__left_bottom-left">
+            <div class="menu__icon menu__icon_bottom-left">
+              <i class="fas fa-paperclip"></i>
+            </div>
+            <div class="menu__text">
+              <textarea name="comments" placeholder="Input text..." class="menu__comment"></textarea>
+            </div>
+          </div>
+          <div class="menu__right menu__right_bottom-right">
+            <div class="menu__icon menu__icon_bottom-right">
+              <i class="fas fa-smile"></i>
+            </div>
+            <div class="menu__icon menu__icon_bottom-right">
+              <i class="fas fa-microphone"></i>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
